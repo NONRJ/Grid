@@ -1,0 +1,65 @@
+.grid {
+    &__aside {
+        display: grid;
+        grid-template-columns:repeat(6, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        height: 300px;
+        grid-gap: 10px;
+    }   
+}
+
+.aside {
+    &__fraction-1 {
+        background: #ee7979;
+        grid-column: 1/5;
+        grid-row: 1/2;
+    }
+
+    &__fraction-2 {
+        background: #c7f305;
+        grid-column: 5/7;
+        grid-row: 1/4;
+    }
+
+    &__fraction-3 {
+        background: #48d606;
+        grid-column: 1/4;
+        grid-row: 2/3;
+    }
+
+    &__fraction-4 {
+        background: #07bdeb;
+        grid-column: 4/5;
+        grid-row: 2/5;
+    }
+
+    &__fraction-5 {
+        background: #030000;
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    &__fraction-6 {
+        background: #0906dd;
+        grid-column: 2/3;
+        grid-row: 3/5;
+    }
+
+    &__fraction-7 {
+        background: #e504ec;
+        grid-column: 3/4;
+        grid-row: 3/5;
+    }
+
+    &__fraction-8 {
+        background: #eb9494a2;
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    &__fraction-9 {
+        background: #af09fc;
+        grid-column: 5/7;
+        grid-row: 4/5;
+    }
+}

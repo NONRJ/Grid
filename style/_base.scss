@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul ,ol {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+ul, ol {
+    padding: 0px;
+}
+
+.container {
+    max-height: 100%;
+    max-width: 1200px;  
+    margin: 0 auto;
+    padding: 0 16px; 
+}

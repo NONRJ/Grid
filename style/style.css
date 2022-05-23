@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul, ol {
+  padding: 0px;
+}
+
+.container {
+  max-height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.grid__main {
+  display: grid;
+  grid-gap: 10px;
+  height: 300px;
+  margin-bottom: 100px;
+  grid-template-areas: "fraction-1 fraction-1 fraction-2 fraction-2 fraction-2 fraction-3 fraction-3 fraction-3 fraction-3 fraction-4 fraction-4" "fraction-5 fraction-5 fraction-2 fraction-2 fraction-2 fraction-3 fraction-3 fraction-3 fraction-3 fraction-6 fraction-6" "fraction-7 fraction-7 fraction-8 fraction-9 fraction-9 fraction-3 fraction-3 fraction-3 fraction-3 fraction-10 fraction-10" "fraction-11 fraction-11 fraction-11 fraction-11 fraction-11 fraction-3 fraction-3 fraction-3 fraction-3 fraction-12 fraction-12";
+}
+.grid__fraction-1 {
+  background: #ee7979;
+  grid-area: fraction-1;
+}
+.grid__fraction-2 {
+  background: #817d7d;
+  grid-area: fraction-2;
+}
+.grid__fraction-3 {
+  background: #5eff00;
+  grid-area: fraction-3;
+}
+.grid__fraction-4 {
+  background: #e60e60;
+  grid-area: fraction-4;
+}
+.grid__fraction-5 {
+  background: #dd0b97;
+  grid-area: fraction-5;
+}
+.grid__fraction-6 {
+  background: #c41bc4;
+  grid-area: fraction-6;
+}
+.grid__fraction-7 {
+  background: #ff00ff;
+  grid-area: fraction-7;
+}
+.grid__fraction-8 {
+  background: #0c0909;
+  grid-area: fraction-8;
+}
+.grid__fraction-9 {
+  background: #3091af;
+  grid-area: fraction-9;
+}
+.grid__fraction-10 {
+  background: #3e9e18;
+  grid-area: fraction-10;
+}
+.grid__fraction-11 {
+  background: #a87c1d;
+  grid-area: fraction-11;
+}
+.grid__fraction-12 {
+  background: #ffaf01;
+  grid-area: fraction-12;
+}
+
+.grid__aside {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  height: 300px;
+  grid-gap: 10px;
+}
+
+.aside__fraction-1 {
+  background: #ee7979;
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+.aside__fraction-2 {
+  background: #c7f305;
+  grid-column: 5/7;
+  grid-row: 1/4;
+}
+.aside__fraction-3 {
+  background: #48d606;
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+.aside__fraction-4 {
+  background: #07bdeb;
+  grid-column: 4/5;
+  grid-row: 2/5;
+}
+.aside__fraction-5 {
+  background: #030000;
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.aside__fraction-6 {
+  background: #0906dd;
+  grid-column: 2/3;
+  grid-row: 3/5;
+}
+.aside__fraction-7 {
+  background: #e504ec;
+  grid-column: 3/4;
+  grid-row: 3/5;
+}
+.aside__fraction-8 {
+  background: #eb9494a2;
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+.aside__fraction-9 {
+  background: #af09fc;
+  grid-column: 5/7;
+  grid-row: 4/5;
+}
+
+/*# sourceMappingURL=style.css.map */

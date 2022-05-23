@@ -1,0 +1,80 @@
+.grid {
+    
+
+    &__main {
+        display: grid;
+        grid-gap: 10px;
+        height: 300px;
+        margin-bottom: 100px;
+        grid-template-areas: 
+        "fraction-1 fraction-1 fraction-2 fraction-2 fraction-2 fraction-3 fraction-3 fraction-3 fraction-3 fraction-4 fraction-4"
+        "fraction-5 fraction-5 fraction-2 fraction-2 fraction-2 fraction-3 fraction-3 fraction-3 fraction-3 fraction-6 fraction-6"
+        "fraction-7 fraction-7 fraction-8 fraction-9 fraction-9 fraction-3 fraction-3 fraction-3 fraction-3 fraction-10 fraction-10"
+        "fraction-11 fraction-11 fraction-11 fraction-11 fraction-11 fraction-3 fraction-3 fraction-3 fraction-3 fraction-12 fraction-12";
+    }
+
+    &__fraction-1 {
+        background: #ee7979;
+        grid-area: fraction-1;
+    }
+
+    &__fraction-2 {
+        background: #817d7d;
+        grid-area: fraction-2;        
+    }
+
+    &__fraction-3 {
+        background: #5eff00;
+        grid-area: fraction-3;        
+    }
+
+    &__fraction-4 {
+        background: #e60e60;
+        grid-area: fraction-4;        
+    }
+
+    &__fraction-5 {
+        background: #dd0b97;
+        grid-area: fraction-5;
+        
+    }
+
+    &__fraction-6 {
+        background: #c41bc4;
+        grid-area: fraction-6;
+        
+    }
+
+    &__fraction-7 {
+        background: #ff00ff;
+        grid-area: fraction-7;
+        
+    }
+
+    &__fraction-8 {
+        background: #0c0909;
+        grid-area: fraction-8;
+    }
+
+    &__fraction-9 {
+        background: #3091af;
+        grid-area: fraction-9;        
+    }
+
+    &__fraction-10 {
+        background: #3e9e18;
+        grid-area: fraction-10;
+        
+    }
+
+    &__fraction-11 {
+        background: #a87c1d;
+        grid-area: fraction-11;        
+    }
+
+    &__fraction-12 {
+        background: #ffaf01;
+        grid-area: fraction-12;        
+    }
+    
+}
